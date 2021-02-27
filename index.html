@@ -1,12 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Demo multi level nav</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Articles</a></li>
+                <li><a href="#">Books</a>
+                    <!-- Drop down starts here -->
+
+                    <ul>
+
+                        <li><a href="#">Javascript for web designers</a></li>
+                        <li><a href="#">Git for humans</a></li>
+                        <li><a href="#">Designing for touch</a></li>
+                        <li><a href="#">Progressive Web Apps</a></li>
+                        <li><a href="#">The New Css Layout</a></li>
+                    </ul>
+
+                </li>
+                <li><a href="#">Events</a>
+                    <!-- Drop down for events -->
+                    <ul>
+                        <li><a href="#">Front End Developer Con</a></li>
+                        <li><a href="#">React Summit</a></li>
+                        <li><a href="#">Designing for performance</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="#">Memberships</a></li>
+            </ul>
+        </nav>
+    </header>
+
 </body>
+
 </html>
